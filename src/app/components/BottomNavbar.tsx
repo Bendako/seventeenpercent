@@ -9,7 +9,7 @@ import { FaHome } from "react-icons/fa";
 
 type Props = {}
 
-const Navbar = (props: Props) => {
+const BottomNavbar = (props: Props) => {
     const router = useRouter()
     
     return (
@@ -26,4 +26,4 @@ const Navbar = (props: Props) => {
   )
 }
 
-export default Navbar
+export default BottomNavbar
