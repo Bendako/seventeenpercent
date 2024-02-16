@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { FaCar } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import Image from 'next/image';
+import MeImg from '../../../public/me.jpg'
 
 
 
@@ -25,7 +26,7 @@ const TopNavbar = (props: Props) => {
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <Image alt="Tailwind CSS Navbar component" width={100} height={100} src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          <Image alt="Tailwind CSS Navbar component" width={100} height={100} src={MeImg} />
         </div>
       </div>
       <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
